@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(21, 61, 135, 0.75);
+}
+
+.logo img {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; /* Stardew pastel pink */
+    font-weight: bold;
+    font-size: 40px;
+    transition: color 0.3s ease, transform 0.3s ease;    
+}
+
+.nav-links a:hover {
+    color: #e19689;
+    transform: scale(1.1);
+}
